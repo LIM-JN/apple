@@ -1,14 +1,14 @@
 import './App.css';
 
-import { useTheme } from '@mui/material';
 
-
-
-function Header () {
+function Nav () {
 
     return (
     <header className="App-header">
         <ul>
+            <div className="img-box">
+                <img src="/apple.svg"></img>
+            </div>
             <li>Store</li>
             <li>Mac</li>
             <li>iPad</li>
@@ -19,9 +19,15 @@ function Header () {
             <li>엔터테이먼트</li>
             <li>엑세서리</li>
             <li>고객지원</li>
+            <div className="img-box">
+                <img src="/search.svg"></img>
+            </div>
+            <div className="img-box">
+                <img src="/bag.svg"></img>
+            </div>
         </ul>
     </header>
     )
 }
 
-export default Header;
+export default Nav;

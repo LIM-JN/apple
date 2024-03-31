@@ -1,13 +1,13 @@
 import './App.css';
 import Banner from './Banner.js';
 import Item from './Item.js';
-import Header from './Header.js'
+import Nav from './Nav.js'
 
 
 function App() {
   return (
     <div className="App">      
-      <Header></Header>
+      <Nav></Nav>
       <div class="banner-wrap">
         <Banner title="MacBook Air" 
         copywrite="날렵하게. 강력하게. M3답게." 
